@@ -1,0 +1,520 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+header > div {
+    color: white;
+    padding: 10px;
+}
+
+header input[type="text"] {
+    position: relative;
+    border-radius: 10px;
+    top: 20%;
+    left: 20%;
+    width: 150%;
+    height: 45%;
+    cursor: pointer;
+}
+
+#upgrade {
+    position: fixed;
+    right: 9%;
+    top: 1%;
+}
+
+header > img {
+    position: fixed;
+    width: 3%;
+    right: 5%;
+    top: 0;
+}
+
+#juanpito {
+    position: fixed;
+    right: 1%;
+    top: 1%;
+}
+
+.azul {
+    background-color: rgba(0, 0, 255, 0.722);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 4.5%;
+    top: 6.1%;
+}
+
+.azul > div {
+    color: white;
+    position: fixed;
+    top: 7.3%;
+    left: 2%;   
+}
+
+.azul > nav {
+    position: fixed;
+    color: white;
+    right: 1%;
+    top: 8%;
+}
+
+.izq {
+    background-color: rgb(26, 26, 26);
+    position: fixed;
+    top: 10.5%;
+    left: 0;
+    width: 15%;
+    height: 100%;
+}
+
+.izq > div {
+    color: gray;
+    position: relative;
+    top: 2%;
+    height: 35px;
+}
+
+.MAIN {
+    position: relative;
+    left: 5%;
+    top: 1%;
+}
+
+.toto {
+    position: relative;
+    left: 15%;
+}
+
+.toto:hover {
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.258);
+    width: 220px;
+}
+
+.grande {
+    background-color: rgb(12, 12, 12);
+    width: 70%;
+    height: 100%;
+    position: fixed;
+    left: 15%;
+    top: 10.5%;
+}
+
+.clarent {
+    background-color: rgb(12, 12, 12);
+    width: 70%;
+    height: 40%;
+    position: fixed;
+    top: 11.5%;
+    color: white;
+}
+
+.clarent > img {
+    height: 270px;
+    width: 270px;   
+    position: fixed;
+    top: 14%;
+    left: 17.5%;
+}
+
+.pepo {
+    position: relative  ;
+    top: 8%;
+    left: 28%;
+    color: rgb(58, 58, 58);
+    display: flex;
+}
+
+.popo {
+    position: relative  ;
+    top: 10%;
+    left: 27.5%;
+    color: rgb(58, 58, 58);
+    display: flex;
+    padding: 5px;
+}
+
+.tete {
+    position: relative  ;
+    top: 9%;
+    left: 27.5%;
+    font-size: xx-large;
+    font-weight: bold;
+    display: flex;
+}
+
+.play {
+    background-color: rgb(7, 206, 7);
+    border-radius: 30px;
+    color: white;
+    position: fixed;
+    width: 6%;
+    height: 4%;
+    top: 39.3%;
+    left: 32.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.follow {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    border-radius: 30px;
+    position: fixed;
+    left: 39.5%;
+    width: 8%;
+    height: 4%;
+    top: 39.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.create {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    border-radius: 30px;
+    position: fixed;
+    left: 48.5%;
+    width: 15%;
+    height: 4%;
+    top: 39.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.tu {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    border-radius: 30px;
+    position: fixed;
+    left: 64.5%;
+    width: 2%;
+    height: 4%;
+    top: 39.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.re {
+    position: fixed;
+    left: 34%;
+    top: 45%;
+    display: flex;  
+}
+
+.r {
+    position: fixed;
+    left: 40%;
+    top: 45%;
+    display: flex;   
+}
+
+.ree {
+    position: fixed;
+    left: 50%;
+    top: 45%;
+    display: flex;  
+}
+
+.reee {
+    position: fixed;
+    left: 70%;
+    top: 45%;
+    display: flex;  
+}
+
+hr {
+    position: relative;
+    top: 61%;
+    left: 3.5%;
+}
+
+.filter {
+    position: fixed;
+    display: flex;
+    gap: 70%;
+    color: gray;
+    left: 20%;
+    top: 57%;
+}
+
+.solo {
+    position: fixed;
+    left: 17.5%;
+    top: 53%;
+}
+
+.dos {
+    position: fixed;
+    top: 60%;
+    left: 17.5%;
+    width: 100%;
+}
+
+.texto1 {
+    position: fixed;
+    top: 63.5%;
+}
+
+.mas {
+    position: fixed;
+    display: flex;
+    color: gray;
+    left: 18%;
+}
+
+.song {
+    position: fixed;
+    display: flex;
+    color: gray;
+    left: 20%;
+}
+
+.artist {
+    position: fixed;
+    display: flex;
+    color: gray;
+    left: 33.5%;
+}
+
+.album {
+    position: fixed;
+    display: flex;
+    color: gray;
+    left: 48%;
+}
+
+.fecha {
+    position: fixed;
+    display: flex;
+    color: gray;
+    right: 33.4%;
+}
+
+.tiempo1 {
+    position: fixed;
+    display: flex;
+    color: gray;
+    right: 21.8%;
+    top: 63.5%;
+}
+
+.tres {
+    position: fixed;
+    top: 67%;
+    left: 17.5%;
+    width: 100%;
+}
+
+.texto2 {
+    position: fixed;
+    top: 70%;
+}
+
+.tiempo2 {
+    position: fixed;
+    display: flex;
+    color: gray;
+    right: 21.8%;
+    top: 70%;
+}
+
+.cuatro {
+    position: fixed;
+    top: 73%;
+    left: 17.5%;
+    width: 100%;
+}
+
+.texto3 {
+    position: fixed;
+    top: 76%;
+}
+
+.tiempo3 {
+    position: fixed;
+    display: flex;
+    color: gray;
+    right: 21.8%;
+    top: 76%;
+}
+
+.cinco {
+    position: fixed;
+    top: 79%;
+    left: 17.5%;
+    width: 100%;
+}
+
+.texto4 {
+    position: fixed;
+    top: 82%;
+}
+
+.tiempo4 {
+    position: fixed;
+    display: flex;
+    color: gray;
+    right: 21.8%;
+    top: 82%;
+}
+
+.seis {
+    position: fixed;
+    top: 85%;
+    left: 17.5%;
+    width: 100%;
+}
+
+.texto5 {
+    position: fixed;
+    top: 88%;
+}
+
+.tiempo1 {
+    position: fixed;
+    display: flex;
+    color: gray;
+    right: 21.8%;
+    top: 88%;
+}
+
+.siete {
+    position: fixed;
+    top: 91%;
+    left: 17.5%;
+    width: 100%;
+}
+
+.texto6 {
+    position: fixed;
+    top: 94%;
+}
+
+.tiempo6 {
+    position: fixed;
+    display: flex;
+    color: gray;
+    right: 21.8%;
+    top: 94%;
+}
+
+.ocho {
+    position: fixed;
+    top: 97%;
+    left: 17.5%;
+    width: 100%;
+}
+
+.m {
+    background-color: rgb(0, 0, 0);
+    /* rgb(12, 12, 12); */
+    position: fixed;
+    top: 10.5%;
+    right: 0;
+    width: 15%;
+    height: 100%;
+}
+
+.fotoo {
+    position: fixed;
+    left: 86%;
+    top:16.2%;
+}
+
+.fotoo > img {
+    height:50px ;
+    width: 50px;
+}
+
+.rocio {
+color: white;
+position: fixed;
+left: 90%;
+top:14%;
+}
+
+.gozadera {
+color: rgb(78, 77, 77);
+position: fixed;
+left: 90%;
+top: 16.8%;
+font-size: 12px;
+
+}
+
+.gente {
+color: rgb(78, 77, 77);
+position: fixed;
+left: 90%;
+top: 18.7%;
+font-size: 12px;
+
+}
+
+.latino {
+color: rgb(78, 77, 77);
+position: fixed;
+left: 90.5%;
+top: 21.7%;
+font-size: 12px;
+}
+
+.h {
+    position: fixed;
+    top: 27%;
+    left:85%;
+    width: 100%;
+}
+
+.drch {
+    position: fixed;
+    top: 30%;
+    left: 85%;
+    width: 30%;
+
+}
+
+.drch > div {
+    top: 25px;;  
+    right: -15%;
+}
+
+.igual {
+    color: rgb(179, 179, 179);
+    position: relative;
+    font-size: 18px;
+}
+
+.noo{
+    color: white;
+    font-size: 30px;
+}
+
+.rrr {
+    color: white;   
+    top: 70%;
+}
+
+.fotoo > img {
+    height:50px ;
+    width: 50px;
+}
+
