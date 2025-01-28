@@ -46,23 +46,20 @@ public class Principal {
                         System.out.println("3-Consultar empleado");
                         System.out.println("4-Salir");
 
-                        y = sc.nextInt(); // Leer la opción del usuario
+                        y = sc.nextInt(); 
 
                         switch (y) {
                             case 1: {
-                                // Implementar acción para Alta empleado
+                                
                                 break;
                             }
                             case 2: {
-                                // Implementar acción para Modificar empleado
                                 break;
                             }
                             case 3: {
-                                // Implementar acción para Consultar empleado
                                 break;
                             }
                             case 4: {
-                                // Salir de la gestión de empleados
                                 break;
                             }
                             default: {
@@ -70,15 +67,13 @@ public class Principal {
                                 break;
                             }
                         }
-                    } while (y != 4); // Continuar hasta que el usuario seleccione "4" para salir
+                    } while (y != 4); 
                     break;
                 }
                 case 2: {
-                    // Implementar acción para Gestionar pedido
                     break;
                 }
                 case 3: {
-                    // Implementar acción para Gestionar producto
                     break;
                 }
                 case 4: {
@@ -90,7 +85,7 @@ public class Principal {
                     break;
                 }
             }
-        } while (x != 4); // Continuar hasta que el usuario seleccione "4" para salir
+        } while (x != 4); 
     }
 }
 
